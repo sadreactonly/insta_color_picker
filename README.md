@@ -5,7 +5,7 @@ A Flutter package that offers an Instagram-inspired color picker for elegant col
 
 To use the Insta Color Picker package, add it to your `pubspec.yaml` file:
 
-<img src="https://drive.google.com/file/d/19fVa2lyiTfdVjfxQEGo53dbN8Ho0RSNj/view?usp=drive_link">
+<img src="https://drive.google.com/uc?export=view&id=19fVa2lyiTfdVjfxQEGo53dbN8Ho0RSNj">
 
 ``` yaml
 dependencies:
@@ -109,4 +109,4 @@ Use our color palettes:
     // Other parameters
   );
 ```
-<img src="https://drive.google.com/file/d/17W1-C1UnNZHrMmx_r3SQa_27onTOkqTn/view?usp=drive_link">
+<img src="https://drive.google.com/uc?export=view&id=17W1-C1UnNZHrMmx_r3SQa_27onTOkqTn">
