@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_color_picker/insta_color_picker.dart';
 
@@ -38,9 +37,8 @@ class HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      backgroundColor: CupertinoColors.systemGrey,
       body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Padding(
@@ -60,7 +58,7 @@ class HomeState extends State<Home> {
           },
         ),
         const Divider(),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Padding(
