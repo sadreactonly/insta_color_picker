@@ -53,28 +53,29 @@ InstaColorPicker(
 ## Customisation
 The InstaColorPicker class provides the following parameters for customization:
 
-*`activeDotColor`
-*`activeDotScale`
-*`colorButtonSize`
-*`colorButtonBorderColor`
-*`colorsList`
-*`colorPaletteHeight`
-*`dotColor`
-*`dotHeight`
-*`dotWidth`
-*`height`
-*`icon`
-*`iconPadding`
-*`iconSize`
-*`onColorSelected`
-*`pageController`
-*`pageIndicatorSpacing`
-*`selectedColorSize`
-*`selectedColor`
+*`activeDotColor`\
+*`activeDotScale`\
+*`colorButtonSize`\
+*`colorButtonBorderColor`\
+*`colorsList`\
+*`colorPaletteHeight`\
+*`dotColor`\
+*`dotHeight`\
+*`dotWidth`\
+*`height`\
+*`icon`\
+*`iconPadding`\
+*`iconSize`\
+*`onColorSelected`\
+*`pageController`\
+*`pageIndicatorSpacing`\
+*`selectedColorSize`\
+*`selectedColor`\
 
 Refer to the class documentation for detailed information about each parameter.
 
-Examples
+## Examples
+
 For more detailed usage examples, please refer to the example directory in this repository.
 
 
