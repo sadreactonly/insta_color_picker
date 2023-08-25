@@ -2,45 +2,16 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-/*
-class Constants {
-  static final List<Color> colors1 = const [
-    const Color(0xFFFFFFFF),
-    const Color(0xFF000000),
-    const Color(0xFF3897F1),
-    const Color(0xFF70C04F),
-    const Color(0xFFFDCB5C),
-    const Color(0xFFFC8D33),
-    const Color(0xFFED4A57),
-    const Color(0xFFD1086A),
-    const Color(0xFFA208BA),
-  ];
-  static final List<Color> colors2 = const [
-    const Color(0xFFED0014),
-    const Color(0xFFEC858E),
-    const Color(0xFFFFD3D4),
-    const Color(0xFFFEDBB3),
-    const Color(0xFFFFC482),
-    const Color(0xFFD29046),
-    const Color(0xFF99643A),
-    const Color(0xFF432324),
-    const Color(0xFF1C4928),
-  ];
-  static final List<Color> colors3 = const [
-    const Color(0xFF262626),
-    const Color(0xFF363636),
-    const Color(0xFF555555),
-    const Color(0xFF737373),
-    const Color(0xFF999999),
-    const Color(0xFFB2B2B2),
-    const Color(0xFFC7C7C7),
-    const Color(0xFFDBDBDB),
-    const Color(0xFFEFEFEF),
-  ];
-}
-*/
-
+/// A collection of predefined color palettes for various visual themes.
+///
+/// The [ColorPalettes] abstract class contains static constants representing
+/// different color palettes that can be used in various UI elements, themes,
+/// and design components to maintain consistent and appealing color schemes.
 abstract class ColorPalettes {
+  /// A palette of colors suitable for Instagram-style designs.
+  ///
+  /// This palette includes a variety of colors that can be used for creating
+  /// vibrant and visually appealing interfaces with an Instagram-inspired look.
   static const List<Color> insta1 = [
     PaletteColors.white,
     PaletteColors.black,
@@ -53,6 +24,10 @@ abstract class ColorPalettes {
     PaletteColors.purple,
   ];
 
+  /// Another palette of colors suitable for Instagram-style designs.
+  ///
+  /// This palette offers a different set of colors that can be utilized in
+  /// Instagram-like interfaces, providing flexibility and options for design.
   static const List<Color> insta2 = [
     PaletteColors.brightRed,
     PaletteColors.paleRed,
@@ -64,6 +39,12 @@ abstract class ColorPalettes {
     PaletteColors.darkBrown,
     PaletteColors.darkGreen,
   ];
+
+  /// A palette of colors representing shades of gray.
+  ///
+  /// This palette provides a range of gray shades that can be used for
+  /// creating monochromatic or minimalistic designs with varying levels
+  /// of contrast and subtlety.
   static const List<Color> insta3 = [
     PaletteColors.charcoalGray,
     PaletteColors.darkGray,
@@ -76,6 +57,11 @@ abstract class ColorPalettes {
     PaletteColors.offWhite,
   ];
 
+  /// A palette of colors inspired by oceanic themes.
+  ///
+  /// This palette offers a selection of colors reminiscent of ocean and
+  /// water-related imagery, suitable for designs that aim to convey a
+  /// sense of calmness and serenity.
   static const List<Color> oceanBreeze = [
     PaletteColors.azure,
     PaletteColors.skyBlue,
@@ -87,6 +73,12 @@ abstract class ColorPalettes {
     PaletteColors.indigo,
     PaletteColors.powderBlue,
   ];
+
+  /// A palette of colors inspired by autumn landscapes.
+  ///
+  /// This palette includes colors that evoke the warm and cozy feeling
+  /// of autumn, making it suitable for designs that want to capture the
+  /// essence of fall and its characteristic colors.
   static const List<Color> autumnVibes = [
     PaletteColors.rust,
     PaletteColors.amber,
@@ -98,6 +90,11 @@ abstract class ColorPalettes {
     PaletteColors.mahogany,
     PaletteColors.copper,
   ];
+
+  /// A palette of soft pastel colors.
+  ///
+  /// This palette offers a collection of gentle and muted colors that can
+  /// be used to create delicate and soothing designs with a pastel aesthetic.
   static const List<Color> pastelDream = [
     PaletteColors.lavender,
     PaletteColors.blush,
@@ -109,6 +106,12 @@ abstract class ColorPalettes {
     PaletteColors.pistachio,
     PaletteColors.apricot,
   ];
+
+  /// A palette of colors inspired by urban aesthetics.
+  ///
+  /// This palette is suitable for creating sleek and modern design elements
+  /// with an urban chic vibe, making use of colors that reflect the urban
+  /// environment and its associated aesthetics.
   static const List<Color> urbanChic = [
     PaletteColors.charcoal,
     PaletteColors.slate,
@@ -120,6 +123,12 @@ abstract class ColorPalettes {
     PaletteColors.taupe,
     PaletteColors.plum,
   ];
+
+  /// A palette of colors inspired by tropical landscapes.
+  ///
+  /// This palette provides a selection of colors that can be used to evoke a
+  /// tropical paradise feel in design elements, reminiscent of warm climates
+  /// and vibrant nature.
   static const List<Color> tropicalParadise = [
     PaletteColors.coral,
     PaletteColors.mango,
@@ -133,6 +142,7 @@ abstract class ColorPalettes {
   ];
 }
 
+/// A collection of color constants used in predefined color palettes.
 class PaletteColors {
   //Instagram 1
   static const Color white = Color(0xFFFFFFFF);
