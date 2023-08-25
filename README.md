@@ -70,7 +70,7 @@ The InstaColorPicker class provides the following parameters for customization:
 *`pageController`\
 *`pageIndicatorSpacing`\
 *`selectedColorSize`\
-*`selectedColor`\
+*`selectedColor`
 
 Refer to the class documentation for detailed information about each parameter.
 
@@ -78,5 +78,32 @@ Refer to the class documentation for detailed information about each parameter.
 
 For more detailed usage examples, please refer to the example directory in this repository.
 
+## Color Palettes
 
+You can use the predefined color palettes provided by the insta_color_picker package. Here is the example for usage:
 
+Use your colors:
+```
+List<Color> myCustomPalette = [
+    PaletteColors.magenta,
+    PaletteColors.palePeach,
+    PaletteColors.indigo,
+    // Add your custom colors here
+  ];
+
+  // Use the color palette in your InstaColorPicker instance
+  InstaColorPicker(
+    colorsList: myCustomPalette,
+    // Other parameters
+  );
+```
+
+Use our color palettes:
+```
+
+  // Use the color palette in your InstaColorPicker instance
+  InstaColorPicker(
+    colorsList: [PaletteColors.oceanBreeze, PaletteColors.autumnVibes, PaletteColors.pastelDream],
+    // Other parameters
+  );
+```
