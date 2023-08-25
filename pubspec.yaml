@@ -1,7 +1,9 @@
 name: insta_color_picker
-description: A new Flutter package project.
+description: A Flutter package that offers an Instagram-inspired color picker for elegant color selection.
 version: 0.0.1
 homepage: https://github.com/sadreactonly/insta_color_picker
+repository: https://github.com/sadreactonly/insta_color_picker
+issue_tracker: https://github.com/sadreactonly/insta_color_picker/issues
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

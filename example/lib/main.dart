@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_color_picker/insta_color_picker.dart';
 
@@ -36,12 +37,19 @@ class HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
-      appBar: AppBar(
-        title: const Text('insta_color_picker'),
-      ),
-      body: Column(children: [
-        const Text('Initial Instagram colors'),
+      appBar: AppBar(),
+      backgroundColor: CupertinoColors.systemGrey,
+      body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        SizedBox(
+          height: 20,
+        ),
+        Padding(
+          padding: EdgeInsets.all(8),
+          child: Text(
+            'Initial Instagram colors',
+            style: Theme.of(context).textTheme.labelLarge,
+          ),
+        ),
         InstaColorPicker(
           pageController: PageController(keepPage: true),
           selectedColor: _color,
@@ -52,7 +60,16 @@ class HomeState extends State<Home> {
           },
         ),
         const Divider(),
-        const Text('Our color palettes'),
+        SizedBox(
+          height: 20,
+        ),
+        Padding(
+          padding: EdgeInsets.all(8),
+          child: Text(
+            'Our color palettes',
+            style: Theme.of(context).textTheme.labelLarge,
+          ),
+        ),
         InstaColorPicker(
           pageController: PageController(keepPage: true),
           icon: Icons.colorize,
